@@ -1,0 +1,26 @@
+header {
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+}
+
+.image-container {
+    grid-template-columns: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    margin: auto;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+}
