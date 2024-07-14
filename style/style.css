@@ -24,3 +24,7 @@ h1 {
 .image-container img {
     width: 100%;
 }
+
+li {
+    list-style-type: none;
+}
